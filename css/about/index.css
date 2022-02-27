@@ -11,7 +11,7 @@
 }
 
 .about-title{  
-    inline-size: 100%;
+    inline-size: 50%;
     text-align: center;
     font-family: Ubuntu; 
     font-weight: bold;
@@ -23,9 +23,7 @@
     position: relative;
     background-color: var(--white);
     padding-inline-end: 2rem;
-    padding-inline-start: 2rem;
-    padding-block-start: 2rem;
-    padding-block-end: 3rem;
+    padding-inline-start: 2rem; 
     border-radius: .5rem;
     font-family: Roboto; 
     font-size: .87rem;
@@ -67,7 +65,7 @@
     }
 
     .about-description{
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .about-cirularSVG{  
