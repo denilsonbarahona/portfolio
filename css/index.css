@@ -1,0 +1,27 @@
+@import './button/index.css';
+@import './logo/index.css';
+@import './title/index.css';
+@import './icons/index.css';
+@import './project/index.css';
+@import './header/index.css';
+@import './layouts/index.css';
+@import './hero/index.css';
+@import './portfolio/index.css';
+@import './about/index.css';
+@import './footer/index.css';
+
+:root{
+    --red: #ff4f6e;
+    --yellow: #ffaf00;
+    --blue: #009dae;
+    --black: #031e1d;
+    --gray: #373d4a;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #f7f8f8;
+}

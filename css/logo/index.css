@@ -1,0 +1,32 @@
+.logo {
+   display: inline-block;  
+}
+
+.logo-figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.625rem;
+    align-items: center; 
+    justify-content: center;
+}
+
+.logo-img{
+    inline-size: 2.75rem;
+    block-size: 1.875rem;
+    object-fit: cover;
+}
+
+.logo-caption{
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.625rem;
+    font-family: Ubuntu;
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .logo-caption{
+        display: inline-block;
+    }
+}

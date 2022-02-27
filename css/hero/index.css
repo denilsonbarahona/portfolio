@@ -1,0 +1,75 @@
+
+.hero{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1.5rem;
+    margin-block-start: .5rem;
+    margin-block-end: 5rem;
+}
+
+.hero-figure{
+    inline-size: clamp(20.9375rem, 100%, 31.5rem);
+    block-size: clamp(23.375rem, 100%, 35.25rem); 
+    margin: 0;
+    grid-area: unset;
+}
+
+.hero-image{
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover; 
+}
+
+.hero-action .button{
+    inline-size: 100%; 
+}
+
+.hero-divider{
+    block-size: 1px;
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.hero-dotSVG{
+    position: absolute;
+    inline-size: 5rem;
+    block-size: 4rem;
+    inset-block-end: 20%;
+}
+
+@media screen and (min-width: 728px) {
+    .hero-action .button{
+        inline-size: auto;
+    }
+
+    .hero-action{
+        inline-size: 19.75rem;
+    }
+
+    .hero-figure {
+        grid-area: figure;
+    }
+
+    .hero {
+        margin-block-start: 3rem;
+        grid-template-columns: 20.5rem 1fr;
+        grid-template-areas: 'figure info' 'figure info'; 
+        column-gap: 2.5rem;
+    }
+
+    .hero-dotSVG{ 
+        inset-block-end: -6%;
+        inline-size: 8rem;
+        block-size: 7rem; 
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        margin-block-start: 3rem;
+        grid-template-columns: 31.5rem 1fr; 
+    }
+
+}

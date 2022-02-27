@@ -1,0 +1,54 @@
+.portfolio {
+    position: relative;
+}
+
+.portfolio-title{
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem; 
+    color: var(--red);
+    margin: 0;
+}
+
+.portfolio-subtitle{
+    text-align: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--black);
+    margin: 0;
+    margin-block-end: 2rem;
+}
+
+.portfolio-projects{ 
+    display: grid;
+    gap: 3rem; 
+}
+
+.portfolio-linearSVG{
+    position: absolute; 
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.portfolio-circularBlur{
+    display: inline-block;
+    inline-size: 20rem;
+    block-size: 20rem; 
+    border-radius: 50%;
+    filter: blur(180px);
+    background-color: rgba(255, 79, 110, .4);
+    position: absolute;
+    inset-inline-start: 50%;
+    inset-block-start: -3%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .portfolio-projects{ 
+        gap: 5rem;
+    }
+}

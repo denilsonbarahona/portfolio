@@ -1,0 +1,94 @@
+.button {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font: 400 1.125rem Roboto;
+    box-sizing: border-box;
+    background: transparent;
+    text-decoration: none;
+    color: var(--black);
+    text-align: center; 
+}
+
+.button-action{
+    background-color: var(--red); 
+    display: grid; 
+    padding: 0.625rem;
+    block-size: 100%;
+    box-sizing: border-box;
+    border-top-right-radius: 0.625rem;
+    place-content: center;
+    inline-size: 3.375rem;
+}
+
+.button-icon{ 
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+
+.button--isActionNow{
+    block-size: 3.375rem;
+    display: flex;
+    align-items: center;
+    gap: 1.3125rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Roboto;
+}
+
+
+.button--isBase {
+    border-radius: 5px;
+    padding-block-start: 0.75rem;
+    padding-block-end: 0.75rem;
+    padding-inline-end: 1.125rem;
+    padding-inline-start: 1.125rem;
+    background-color: var(--blue);
+    color: var(--white);
+    
+}
+
+
+.button--isBordered {
+    border-radius: 5px;
+    padding-block-start: 0.75rem;
+    padding-block-end: 0.75rem;
+    padding-inline-end: 1.125rem;
+    padding-inline-start: 1.125rem;
+    border: 1px solid black;
+}
+
+.button--iRounded {
+    border: 1px solid black;
+    inline-size: 2rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 1rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button--isRed {
+    border-color: var(--red);
+    color: var(--red);
+}
+
+.button--isBlue {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.button:active{
+    transform: scale(.95);
+}
+
+.button:focus{
+    outline-color: var(--yellow);
+    outline-style: dashed;
+    outline-width: medium;
+}

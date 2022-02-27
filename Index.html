@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Denilson Barahona's Portfolio">
+    <meta name="keywords" content="FrontEnd developer, Frontend, Web Developer, Developer, React, Javascript, Portfolio, Denilson Barahona">
+    <meta name="author" content="Denilson Barahona">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Denilson Barahona - Portfolio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <figure class="logo-figure">
+                    <img class="logo-img" alt="Logo inside Denilson's portfolio" height="30" width="44"src="./assets/logo.png"/>
+                    <figcaption class="logo-caption">Portfolio</figcaption>
+                </figure>
+            </div>
+            <a href="mailto:91sbarahona@gmail.com" class="button button--isBase">Let’s talk</a>
+        </header>
+        <main>
+            <section class="hero">
+                <h1 class="title">
+                    <span class="title-greetings">Hello, I'm Denilson.</span><br/>
+                    I love build things for the web.
+                </h1>
+                <figure class="hero-figure">
+                    <img class="hero-image" width="504" height="564" alt="hero background" src="./assets/herobg.svg"/>
+                </figure>
+                <div class="hero-action">
+                    <a  href="mailto:91sbarahona@gmail.com" class="button button--isActionNow">
+                        <div class="button-action">
+                            <i class="button-icon icon-arrowUp" aria-hidden="true"></i>
+                        </div>
+                        Contact Me Now
+                    </a>
+                    <hr class="hero-divider"/>
+                </div>
+                <img class="hero-dotSVG" width="128" height="112" alt="dot svg background" src="./assets/dot-square.svg" />
+            </section>
+
+            <section class="about">
+                <h1 class="about-title">About Me</h1>
+                <p class="about-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias harum nihil velit sit dignissimos quam, debitis nulla repellat quisquam cumque corrupti vel qui ipsum omnis quos magnam nostrum nemo.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias harum nihil velit sit dignissimos quam, debitis nulla repellat quisquam cumque corrupti vel qui ipsum omnis quos magnam nostrum nemo.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias harum nihil velit sit dignissimos quam, debitis nulla repellat quisquam cumque corrupti vel qui ipsum omnis quos magnam nostrum nemo.
+                    <img class="about-dotSVG" width="128" height="112" alt="dot svg background" src="./assets/dot-square.svg" />
+                </p>
+                <img class="about-cirularSVG" alt="circular svg"  width="546" height="546" src="./assets/circular.svg" />
+            </section>
+
+            <section class="portfolio">
+                <span class="portfolio-circularBlur"></span>
+                <img class="portfolio-linearSVG" width="741" height="170" alt="linear svg" src="./assets/line.svg" />
+                <h1 class="portfolio-title">PROJECTS</h1>
+                <h2 class="portfolio-subtitle">Some Things I’ve Built</h2>
+                <div class="portfolio-projects">
+                    
+                    <div aria-label="Proyect number 1, Macuvi" class="project">
+                        <figure class="project-figure">
+                            <div class="project-overlay"></div>
+                            <img class="project-image" 
+                                alt="Macuvi project"  
+                                height="288"
+                                width="605"
+                                srcset="./assets/Macuvi/macuvi-366.webp 366w, 
+                                        ./assets/Macuvi/macuvi-520.webp 520w, 
+                                        ./assets/Macuvi/macuvi.webp 605w"
+
+                                sizes="(max-width: 320px) 366px, 
+                                       (max-width: 768px) 320px, 
+                                       605px"
+
+                                src="./assets/Macuvi/macuvi.webp" 
+                                />
+                        </figure> 
+                        <div class="project-info">
+                            <h1 class="project-title">Personal Project</h1>
+                            <h1 class="project-name">MACUVI</h1>
+                            <div class="project-description">
+                                <p>Macuvi was a CMS that was born by the need of a friend to manage his little business, because of that I focus to create a web app that could be suitable not only for my friend but for many little business owners in Honduras and help them to make the labor of managing their business a bit easier.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>HTML</li>
+                                <li>React</li>
+                                <li>Javascript</li>
+                                <li>Firebase</li>
+                                <li>Serverless</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/denilsonbarahona/Macuvi" target="_blank" title="github" aria-label="github" class="button button--iRounded button--isBlue"> 
+                                    <i class="icon-github" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://macuvi-bd45a.web.app/" target="_blank" title="live" aria-label="live" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-earth" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div aria-label="Proyect number 2, Memorama" class="project">
+                        <figure class="project-figure">
+                            <div class="project-overlay"></div>
+                            <img class="project-image" 
+                                alt="Memorama project"  
+                                height="288"
+                                width="605"
+                                srcset="./assets/Memorama/Memorama-366.webp 366w, 
+                                        ./assets/Memorama/Memorama-520.webp 520w, 
+                                        ./assets/Memorama/Memorama.webp 605w"
+
+                                sizes="(max-width: 320px) 366px, 
+                                       (max-width: 768px) 320px, 
+                                       605px"
+
+                                src="./assets/Memorama/Memorama.webp" 
+                                />
+                        </figure> 
+                        <div class="project-info">
+                            <h1 class="project-title">Game</h1>
+                            <h1 class="project-name">Memorama</h1>
+                            <div class="project-description">
+                                <p>Memorama is a small game created for having fun while I practice my skills as a frontend developer.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li> 
+                                <li>Rick and Morthy's API</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/denilsonbarahona/d-p-memorama" target="_blank" title="github" aria-label="github" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-github" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://denilsonbarahona.github.io/d-p-memorama/" target="_blank" title="live" aria-label="live" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-earth" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div aria-label="Proyect number 3, Skyline" class="project">
+                        <figure class="project-figure">
+                            <div class="project-overlay"></div>
+                            <img class="project-image"
+                                alt="Skyline project"   
+                                height="288"
+                                width="605"
+                                srcset="./assets/Skyline/Skyline-366.webp 366w, 
+                                        ./assets/Skyline/Skyline-520.webp 520w, 
+                                        ./assets/Skyline/Skyline.webp 605w"
+
+                                sizes="(max-width: 320px) 366px, 
+                                    (max-width: 768px) 320px, 
+                                    605px"
+
+                                src="./assets/Skyline/Skyline.webp" 
+                                />
+                        </figure> 
+                        <div class="project-info">
+                            <h1 class="project-title">Landing Page</h1>
+                            <h1 class="project-name">Skyline</h1>
+                            <div class="project-description">
+                                <p>Skyline is a landing page clone of Skylum, I decided to make it to have fun developing something awesome. </p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li> 
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/denilsonbarahona/d-p-skyline" target="_blank" title="github" aria-label="github" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-github" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://denilsonbarahona.github.io/d-p-skyline/index.html" target="_blank" title="live" aria-label="live" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-earth" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div aria-label="Proyect number 4, VideoTube" class="project">
+                        <figure class="project-figure">
+                            <div class="project-overlay"></div>
+                            <img class="project-image"
+                                alt="VideoTube project"   
+                                height="288"
+                                width="605"
+                                srcset="./assets/VideoTube/VideoTube-366.webp 366w, 
+                                        ./assets/VideoTube/VideoTube-520.webp 520w, 
+                                        ./assets/VideoTube/VideoTube.webp 605w"
+
+                                sizes="(max-width: 320px) 366px, 
+                                    (max-width: 768px) 320px, 
+                                    605px"
+
+                                src="./assets/VideoTube/VideoTube.webp" 
+                                />
+                        </figure> 
+                        <div class="project-info">
+                            <h1 class="project-title">Web App</h1>
+                            <h1 class="project-name">VideoTube</h1>
+                            <div class="project-description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi id exercitationem repellat ad soluta accusantium ratione nesciunt veniam similique culpa illo, quasi sunt error ipsum dolore expedita tempora a.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>HTML</li>
+                                <li>React</li>
+                                <li>Javascript</li>
+                                <li>CSS</li>
+                                <li>YouTube's API</li> 
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/denilsonbarahona/d-p-videotube" target="_blank" title="github" aria-label="github" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-github" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://video-tube-aa039.web.app/"  title="live" aria-label="live" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-earth" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div aria-label="Proyect number 5, DailyBits" class="project">
+                        <figure class="project-figure">
+                            <div class="project-overlay"></div>
+                            <img class="project-image"
+                                alt="DailyBits project"   
+                                height="288"
+                                width="605"
+                                srcset="./assets/DailyBits/dailybits-366.webp 366w, 
+                                        ./assets/DailyBits/dailybits-520.webp 520w, 
+                                        ./assets/DailyBits/dailybits.webp 605w"
+
+                                sizes="(max-width: 320px) 366px, 
+                                    (max-width: 768px) 320px, 
+                                    605px"
+
+                                src="./assets/DailyBits/dailybits.webp" 
+                                />
+                        </figure> 
+                        <div class="project-info">
+                            <h1 class="project-title">Web App</h1>
+                            <h1 class="project-name">DailyBits</h1>
+                            <div class="project-description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi id exercitationem repellat ad soluta accusantium ratione nesciunt veniam similique culpa illo, quasi sunt error ipsum dolore expedita tempora a.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>HTML</li>
+                                <li>React</li>
+                                <li>Javascript</li>
+                                <li>Strapi</li>
+                                <li>Azure</li> 
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/denilsonbarahona/daily-bits" target="_blank" title="github" aria-label="github" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-github" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://40.71.217.75:3006" target="_blank" title="live" aria-label="live" class="button button--iRounded button--isBlue"> 
+                                    <i class=" icon-earth" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-info">
+                <div class="logo">
+                    <figure class="logo-figure">
+                        <img class="logo-img" alt="Logo inside Denilson's portfolio" height="30" width="44"src="./assets/footer-logo.svg"/>
+                        <figcaption class="logo-caption">Portfolio</figcaption>
+                    </figure>
+                </div>
+                <div class="footer-links">
+                    <h1 class="footer-link-header">
+                        My Social Media
+                    </h1>
+                    <div class="footer-actions">
+                        <a href="https://www.linkedin.com/in/denilson-barahona-876727a0/"  target="_blank" title="linkedin" aria-label="linkedin" class="button button--iRounded button--isBlue"> 
+                            <i class=" icon-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/denilsonbarahona" target="_blank" title="github" aria-label="github" class="button button--iRounded button--isBlue"> 
+                            <i class=" icon-github" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider"/>
+            <P class="footer-rigth">Created by Denilson Barahona</P>
+        </div> 
+    </footer>
+  
+</body>
+</html>
